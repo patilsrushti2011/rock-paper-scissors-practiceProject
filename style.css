@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box
+{
+    height: 150px;
+    width: 150px;
+    
+  
+
+}
+#nav{
+    background-color: rgb(55, 46, 110);
+    color: white;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5rem;
+    word-spacing: 5px;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   gap: 0.70rem;
+}
+
+#rock{
+    height: 140px;
+    width: 140px;
+    background-image: url("img/rock.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    
+     
+}
+
+#paper{
+  
+    height: 140px;
+    width: 140px;
+    background-image: url("img/paper.png");
+    background-size:cover;
+    border-radius: 50%;
+
+}
+#scissor{
+ 
+    height: 140px;
+    width: 140px;
+    background-image: url("img/sessor.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+#rock:hover ,#paper:hover ,#scissor:hover{
+    transform:scale(1.4);
+     /* z-index: index 4;  */
+}
+.name{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5rem;
+    margin-top: 1rem;
+     
+}
+.score-board{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+font-size: 1.5rem;
+font-weight: bold;
+gap: 4rem;
+}
+
+#msg
+{
+    
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.815);
+    color:white;
+    display: inline;
+    padding:4px;
+    border-radius: 4px;
+    
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    
+}
+/* .color{
+    background-color: aqua;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+} */
